@@ -9,6 +9,7 @@ public class Main {
         task7();
         task8();
         task9();
+        task10();
     }
 
     public static void task1 () {
@@ -80,6 +81,15 @@ public class Main {
         for (int i = 1; i <= 12; i++) {
             int result = i * (accumulation + ((accumulation + percentOfMonth) / 100));
             System.out.println("«Месяц " + i + ", сумма накоплений равна " + result + " рублей».");
+        }
+    }
+
+    public static void task10 () {
+        System.out.println("Задача 9");
+        for (int i = 1; i <= 10; i++) {
+        int j = 2;
+        int result = j * i;
+        System.out.println(j + " * " + i + " = " + result);
         }
     }
 
